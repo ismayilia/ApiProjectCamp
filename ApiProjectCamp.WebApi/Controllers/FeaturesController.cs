@@ -4,6 +4,7 @@ using ApiProjectCamp.WebApi.Entities;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiProjectCamp.WebApi.Controllers
 {
@@ -23,7 +24,7 @@ namespace ApiProjectCamp.WebApi.Controllers
 		[HttpGet]
 		public IActionResult FeatureList()
 		{
-			var values  = _context.Features.ToList();
+			var values = _context.Features.ToList();
 			return Ok(_mapper.Map<List<ResultFeatureDto>>(values));
 		}
 
@@ -55,7 +56,12 @@ namespace ApiProjectCamp.WebApi.Controllers
 		[HttpPut]
 		public IActionResult UpdateFeature(UpdateFeatureDto updateFeatureDto)
 		{
-			var value = _mapper.Map<Feature>(updateFeatureDto);
+			var data = _context.Features.FirstOrDefault(m => m.FeatureId == updateFeatureDto.FeatureId);
+			if (data is null)
+			{
+				return NotFound();
+			}
+			var value =_mapper.Map<Feature>(updateFeatureDto);
 			_context.Features.Update(value);
 			_context.SaveChanges();
 			return Ok("Update Success!");

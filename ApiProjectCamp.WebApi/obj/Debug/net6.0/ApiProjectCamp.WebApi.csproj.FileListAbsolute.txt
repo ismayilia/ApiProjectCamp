@@ -143,6 +143,7 @@ C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiPr
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.sourcelink.json
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\rjimswa.dswa.cache.json
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
