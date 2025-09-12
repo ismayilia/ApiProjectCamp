@@ -1,0 +1,298 @@
+[
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "Method": "ChefList",
+    "RelativePath": "api/Chef/ChefList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "Method": "CreateChef",
+    "RelativePath": "api/Chef/CreateChef",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chef",
+        "Type": "ApiProjectCamp.WebApi.Entities.Chef",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "Method": "DeleteChef",
+    "RelativePath": "api/Chef/DeleteChef",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "Method": "GetChef",
+    "RelativePath": "api/Chef/GetChef/GetChef",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "Method": "UpdateChef",
+    "RelativePath": "api/Chef/UpdateChef",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chef",
+        "Type": "ApiProjectCamp.WebApi.Entities.Chef",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ContactsController",
+    "Method": "ContactList",
+    "RelativePath": "api/Contacts/ContactList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ContactsController",
+    "Method": "CreateContact",
+    "RelativePath": "api/Contacts/CreateContact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createContactDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.ContactDtos.CreateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ContactsController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/Contacts/DeleteContact",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ContactsController",
+    "Method": "GetContact",
+    "RelativePath": "api/Contacts/GetContact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ContactsController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Contacts/UpdateContact",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateContactDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.ContactDtos.UpdateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.FeaturesController",
+    "Method": "CreateFeature",
+    "RelativePath": "api/Features/CreateFeature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFeatureDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.FeatureDtos.CreateFeatureDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.FeaturesController",
+    "Method": "DeleteFeature",
+    "RelativePath": "api/Features/DeleteFeature",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.FeaturesController",
+    "Method": "FeatureList",
+    "RelativePath": "api/Features/FeatureList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.FeaturesController",
+    "Method": "GetFeature",
+    "RelativePath": "api/Features/GetFeature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.FeaturesController",
+    "Method": "UpdateFeature",
+    "RelativePath": "api/Features/UpdateFeature",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFeatureDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.FeatureDtos.UpdateFeatureDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "CategoryList",
+    "RelativePath": "apiCategories/CategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "apiCategories/CreateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "apiCategories/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "GetCategory",
+    "RelativePath": "apiCategories/GetCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "PutCategory",
+    "RelativePath": "apiCategories/PutCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
