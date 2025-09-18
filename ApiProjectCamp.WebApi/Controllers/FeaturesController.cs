@@ -56,7 +56,8 @@ namespace ApiProjectCamp.WebApi.Controllers
 		[HttpPut]
 		public IActionResult UpdateFeature(UpdateFeatureDto updateFeatureDto)
 		{
-			var data = _context.Features.FirstOrDefault(m => m.FeatureId == updateFeatureDto.FeatureId);
+			var data = _context.Features.AsNoTracking()
+										.FirstOrDefault(m => m.FeatureId == updateFeatureDto.FeatureId);
 			if (data is null)
 			{
 				return NotFound();

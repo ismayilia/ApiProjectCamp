@@ -159,3 +159,4 @@ C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\refin
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.pdb
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.genruntimeconfig.cache
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ref\ApiProjectCamp.WebApi.dll
+C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\FluentValidation.dll
