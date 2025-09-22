@@ -313,6 +313,22 @@
   },
   {
     "ContainingType": "ApiProjectCamp.WebApi.Controllers.ProductsController",
+    "Method": "CreateProductWithCategory",
+    "RelativePath": "api/Products/CreateProductWithCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createProductDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.ProductDtos.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/DeleteProduct",
     "HttpMethod": "DELETE",
