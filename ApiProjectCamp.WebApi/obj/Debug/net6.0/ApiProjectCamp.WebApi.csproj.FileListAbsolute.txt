@@ -87,6 +87,7 @@ C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\ApiPr
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\ApiProjectCamp.WebApi.dll
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\ApiProjectCamp.WebApi.pdb
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\Humanizer.dll
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -159,4 +160,3 @@ C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\refin
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.pdb
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ApiProjectCamp.WebApi.genruntimeconfig.cache
 C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\obj\Debug\net6.0\ref\ApiProjectCamp.WebApi.dll
-C:\Users\HP\Desktop\ApiProjectCapml\ApiProjectCamp.WebApi\bin\Debug\net6.0\FluentValidation.dll
