@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/apiCategories/CategoryList": {
+    "/api/Categories/CategoryList": {
       "get": {
         "tags": [
           "Categories"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/apiCategories/CreateCategory": {
+    "/api/Categories/CreateCategory": {
       "post": {
         "tags": [
           "Categories"
@@ -48,7 +48,7 @@
         }
       }
     },
-    "/apiCategories/DeleteCategory": {
+    "/api/Categories/DeleteCategory": {
       "delete": {
         "tags": [
           "Categories"
@@ -70,7 +70,7 @@
         }
       }
     },
-    "/apiCategories/GetCategory": {
+    "/api/Categories/GetCategory": {
       "get": {
         "tags": [
           "Categories"
@@ -92,7 +92,7 @@
         }
       }
     },
-    "/apiCategories/PutCategory": {
+    "/api/Categories/PutCategory": {
       "put": {
         "tags": [
           "Categories"
@@ -755,6 +755,124 @@
           }
         }
       }
+    },
+    "/api/Service/ServiceList": {
+      "get": {
+        "tags": [
+          "Service"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Service/CreateService": {
+      "post": {
+        "tags": [
+          "Service"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Service/DeleteService": {
+      "delete": {
+        "tags": [
+          "Service"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Service/GetService": {
+      "get": {
+        "tags": [
+          "Service"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Service/PutService": {
+      "put": {
+        "tags": [
+          "Service"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Service"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -944,6 +1062,28 @@
           },
           "category": {
             "$ref": "#/components/schemas/Category"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Service": {
+        "type": "object",
+        "properties": {
+          "serviceId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "iconUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

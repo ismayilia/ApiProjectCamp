@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "CategoryList",
+    "RelativePath": "api/Categories/CategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Categories/CreateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Categories/GetCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
+    "Method": "PutCategory",
+    "RelativePath": "api/Categories/PutCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
     "Method": "ChefList",
     "RelativePath": "api/Chef/ChefList",
@@ -396,35 +470,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
-    "Method": "CategoryList",
-    "RelativePath": "apiCategories/CategoryList",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
-    "Method": "CreateCategory",
-    "RelativePath": "apiCategories/CreateCategory",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "Method": "CreateService",
+    "RelativePath": "api/Service/CreateService",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "Name": "service",
+        "Type": "ApiProjectCamp.WebApi.Entities.Service",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
-    "Method": "DeleteCategory",
-    "RelativePath": "apiCategories/DeleteCategory",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "Method": "DeleteService",
+    "RelativePath": "api/Service/DeleteService",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -438,9 +502,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
-    "Method": "GetCategory",
-    "RelativePath": "apiCategories/GetCategory",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "Method": "GetService",
+    "RelativePath": "api/Service/GetService",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -454,19 +518,29 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.CategoriesController",
-    "Method": "PutCategory",
-    "RelativePath": "apiCategories/PutCategory",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "Method": "PutService",
+    "RelativePath": "api/Service/PutService",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "Name": "service",
+        "Type": "ApiProjectCamp.WebApi.Entities.Service",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "Method": "ServiceList",
+    "RelativePath": "api/Service/ServiceList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]
