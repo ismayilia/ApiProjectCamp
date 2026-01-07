@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\_servicedefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\_servicedefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_defaultmenuproductcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_defaultmenuproductcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_servicedefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_servicedefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\defaultmenuviewcomponentpartial\\_defaultmenuviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\defaultmenuviewcomponentpartial\\_defaultmenuviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\defaultmenuviewcomponentpartial\\_defaultmenuproductcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\defaultmenuviewcomponentpartial\\_defaultmenuproductcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\validationrules\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\validationrules\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\dtos\\servicedtos\\resultservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\dtos\\servicedtos\\resultservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_defaultmenuviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_defaultmenuviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,71 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ServiceDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\_ServiceDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\ViewComponents\\_ServiceDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\_ServiceDefaultComponentPartial.cs*",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\ViewComponents\\_ServiceDefaultComponentPartial.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:17:28.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Program.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:14:09.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\ValidationRules\\ProductValidator.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\ValidationRules\\ProductValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\ValidationRules\\ProductValidator.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\ValidationRules\\ProductValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Title": "ResultProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:10:20.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T05:48:23.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResultServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\ServiceDtos\\ResultServiceDto.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Dtos\\ServiceDtos\\ResultServiceDto.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\ServiceDtos\\ResultServiceDto.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Dtos\\ServiceDtos\\ResultServiceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T05:31:44.937Z",
+              "WhenOpened": "2026-01-07T06:44:31.116Z",
               "EditorCaption": ""
             },
             {
@@ -119,15 +63,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DefaultMenuProductComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuProductComponentPartial.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuProductComponentPartial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuProductComponentPartial.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuProductComponentPartial.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:49:22.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_DefaultMenuViewComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuViewComponentPartial.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuViewComponentPartial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuViewComponentPartial.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\ViewComponents\\DefaultMenuViewComponentPartial\\_DefaultMenuViewComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:49:21.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_ServiceDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_ServiceDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_ServiceDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_ServiceDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuProductComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuProductComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuProductComponentPartial\\Default.cshtml*",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuProductComponentPartial\\Default.cshtml*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T05:46:41.143Z",
+              "WhenOpened": "2026-01-07T06:46:10.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DefaultMenuViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T05:01:49.573Z",
               "EditorCaption": ""
             }
           ]
