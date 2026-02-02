@@ -542,5 +542,153 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.TestimonialsController",
+    "Method": "CreateTestimonial",
+    "RelativePath": "api/Testimonials/CreateTestimonial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Testimonial",
+        "Type": "ApiProjectCamp.WebApi.Entities.Testimonial",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.TestimonialsController",
+    "Method": "DeleteTestimonial",
+    "RelativePath": "api/Testimonials/DeleteTestimonial",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.TestimonialsController",
+    "Method": "GetTestimonial",
+    "RelativePath": "api/Testimonials/GetTestimonial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.TestimonialsController",
+    "Method": "PutTestimonial",
+    "RelativePath": "api/Testimonials/PutTestimonial",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Testimonial",
+        "Type": "ApiProjectCamp.WebApi.Entities.Testimonial",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.TestimonialsController",
+    "Method": "TestimonialList",
+    "RelativePath": "api/Testimonials/TestimonialList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.YummyEventsController",
+    "Method": "CreateYummyEvent",
+    "RelativePath": "api/YummyEvents/CreateYummyEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "YummyEvent",
+        "Type": "ApiProjectCamp.WebApi.Entities.YummyEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.YummyEventsController",
+    "Method": "DeleteYummyEvent",
+    "RelativePath": "api/YummyEvents/DeleteYummyEvent",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.YummyEventsController",
+    "Method": "GetYummyEvent",
+    "RelativePath": "api/YummyEvents/GetYummyEvent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.YummyEventsController",
+    "Method": "PutYummyEvent",
+    "RelativePath": "api/YummyEvents/PutYummyEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "YummyEvent",
+        "Type": "ApiProjectCamp.WebApi.Entities.YummyEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.YummyEventsController",
+    "Method": "YummyEventList",
+    "RelativePath": "api/YummyEvents/YummyEventList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
