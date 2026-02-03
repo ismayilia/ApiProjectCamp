@@ -1463,8 +1463,7 @@
             "nullable": true
           },
           "status": {
-            "type": "string",
-            "nullable": true
+            "type": "boolean"
           },
           "price": {
             "type": "number",
