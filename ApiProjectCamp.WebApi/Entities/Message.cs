@@ -8,7 +8,7 @@
 		public string Subject { get; set; }
 		public string MessageDetails { get; set; }
 		public DateTime SendDate { get; set; }
-		public bool IsReaed { get; set; }
+		public bool IsRead { get; set; }
 
 	}
 }

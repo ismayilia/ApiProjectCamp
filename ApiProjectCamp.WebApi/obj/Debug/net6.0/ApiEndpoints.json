@@ -355,6 +355,16 @@
   },
   {
     "ContainingType": "ApiProjectCamp.WebApi.Controllers.MessagesController",
+    "Method": "MessageListByIsReadFalse",
+    "RelativePath": "api/Messages/MessageListByIsReadFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.MessagesController",
     "Method": "UpdateMessage",
     "RelativePath": "api/Messages/UpdateMessage",
     "HttpMethod": "PUT",

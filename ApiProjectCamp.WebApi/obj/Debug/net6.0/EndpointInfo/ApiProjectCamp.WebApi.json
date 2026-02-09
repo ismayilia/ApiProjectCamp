@@ -595,6 +595,18 @@
         }
       }
     },
+    "/api/Messages/MessageListByIsReadFalse": {
+      "get": {
+        "tags": [
+          "Messages"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Products/ProductList": {
       "get": {
         "tags": [
@@ -1235,7 +1247,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "isReaed": {
+          "isRead": {
             "type": "boolean"
           }
         },
@@ -1437,7 +1449,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "isReaed": {
+          "isRead": {
             "type": "boolean"
           }
         },

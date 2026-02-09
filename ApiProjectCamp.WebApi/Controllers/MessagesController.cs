@@ -60,5 +60,12 @@ namespace ApiProjectCamp.WebApi.Controllers
 			_context.SaveChanges();
 			return Ok("Updates Success");
 		}
+
+		[HttpGet]
+		public IActionResult MessageListByIsReadFalse()
+		{
+			var value = _context.Messages.Where(x => x.IsRead == false);
+			return Ok(value);
+		}
 	}
 }
