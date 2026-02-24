@@ -48,5 +48,25 @@ namespace ApiProjectCamp.WebUI.Controllers
 			}
 			return View();
 		}
+
+		//[HttpPost]
+		public async Task<IActionResult> DeleteCategory(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			await client.DeleteAsync("https://localhost:7256/api/Categories/DeleteCategory?id=" + id);
+			return RedirectToAction("CategoryList");
+
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> UpdateCategory(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			var responseMessage = await client.GetAsync("https://localhost:7256/api/Categories/GetCategory?id=" + id);
+			var jsonData = await responseMessage.Content.ReadAsStringAsync();
+			var value = JsonConvert.DeserializeObject<GetCategoryByIdDto>(jsonData);
+			return View(value);
+
+		}
 	}
 }
