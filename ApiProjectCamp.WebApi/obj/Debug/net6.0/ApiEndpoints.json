@@ -66,8 +66,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "ApiProjectCamp.WebApi.Entities.Category",
+        "Name": "updateCategoryDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.CategoryDtos.UpdateCategoryDto",
         "IsRequired": true
       }
     ],

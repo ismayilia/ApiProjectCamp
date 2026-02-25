@@ -65,7 +65,24 @@ namespace ApiProjectCamp.WebUI.Controllers
 			var responseMessage = await client.GetAsync("https://localhost:7256/api/Categories/GetCategory?id=" + id);
 			var jsonData = await responseMessage.Content.ReadAsStringAsync();
 			var value = JsonConvert.DeserializeObject<GetCategoryByIdDto>(jsonData);
-			return View(value);
+
+			var updateData = new UpdateCategoryDto
+			{
+				CategoryId = value.CategoryId,
+				CategoryName = value.CategoryName
+			};
+			return View(updateData);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
+		{
+			var client = _httpClientFactory.CreateClient();
+			var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
+			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+			var responseMessage = await client.PutAsync("https://localhost:7256/api/Categories/PutCategory", stringContent);
+			
+			return RedirectToAction("CategoryList");
 
 		}
 	}

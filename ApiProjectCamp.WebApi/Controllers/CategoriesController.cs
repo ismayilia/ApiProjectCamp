@@ -1,4 +1,4 @@
-﻿using ApiProjectCamp.WebApi.Context;
+﻿	using ApiProjectCamp.WebApi.Context;
 using ApiProjectCamp.WebApi.Dtos.CategoryDtos;
 using ApiProjectCamp.WebApi.Dtos.FeatureDtos;
 using ApiProjectCamp.WebApi.Entities;
@@ -60,9 +60,11 @@ namespace ApiProjectCamp.WebApi.Controllers
 		}
 
 		[HttpPut]
-		public IActionResult PutCategory(Category category) 
+		public IActionResult PutCategory(UpdateCategoryDto updateCategoryDto) 
 		{
-			_context.Categories.Update(category);
+			var value = _mapper.Map<Category>(updateCategoryDto);
+
+			_context.Categories.Update(value);
 			_context.SaveChanges();
 			return Ok("Update success");
 		}
