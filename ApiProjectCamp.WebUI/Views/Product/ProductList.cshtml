@@ -22,6 +22,7 @@
 									<th scope="col">#</th>
 									<th scope="col">Product Name</th>
 									<th scope="col">Price</th>
+									<th scope="col">Category Name</th>
 									<th scope="col">Delete</th>
 									<th scope="col">Update</th>
 								</tr>
@@ -34,6 +35,7 @@
 										<th scope="row">@count</th>
 										<td>@item.ProductName</td>
 										<td>@item.Price</td>
+										<td>@item.CategoryName</td>
 										<td><a href="/Product/DeleteProduct/@item.ProductId" class="btn btn-danger">Delete</a></td>
 										<td><a href="/Product/UpdateProduct/@item.ProductId" class="btn btn-success">Update</a></td>
 									</tr>

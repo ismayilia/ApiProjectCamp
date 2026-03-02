@@ -1,0 +1,57 @@
+﻿@model List<ResultFeatureDto>
+
+@{
+	ViewData["Title"] = "FeatureList";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+}
+
+<section class="section">
+	<div class="section-body">
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12">
+				<div class="card">
+					<div class="card-header">
+						<h4>Featured Area Operations (Slide section)</h4>
+					</div>
+					<p style="margin-left:26px">To maintain thematic integrity, only one featured area information item can be added!!!</p>
+					<div class="card-body">
+						<table class="table">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Title</th>
+									<th scope="col">SubTitle</th>
+									<th scope="col">Description</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									count++;
+									<tr>
+										<th scope="row">@count</th>
+										<td>@item.Title</td>
+										<td>@item.SubTitle</td>
+										<td>@item.Description</td>
+										<td><a href="/Feature/FeatureCategory/@item.FeatureId" class="btn btn-danger">Delete</a></td>
+										<td><a href="/Feature/FeatureCategory/@item.FeatureId" class="btn btn-success">Update</a></td>
+									</tr>
+								}
+							</tbody>
+						</table>
+						@if (Model.Count != 1)
+						{
+							<a href="/Feature/CreateFeature/" class="btn btn-info">Create new feature</a>
+
+						}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+

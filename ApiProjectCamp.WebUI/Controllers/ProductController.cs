@@ -21,7 +21,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 		public async Task<IActionResult> ProductList()
 		{
 			var client = _httpClientFactory.CreateClient();
-			var responseMessage = await client.GetAsync("https://localhost:7256/api/Products/ProductList");
+			var responseMessage = await client.GetAsync("https://localhost:7256/api/Products/ProductListWithCategory");
 			if (responseMessage.IsSuccessStatusCode)
 			{
 				var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -56,7 +56,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 			var jsonData = JsonConvert.SerializeObject(createProductDto);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
 			var responseMessage = await client.PostAsync("https://localhost:7256/api/Products/CreateProductWithCategory", stringContent);
-			if (responseMessage.IsSuccessStatusCode)
+			if (responseMessage.IsSuccessStatusCode)	
 			{
 				return RedirectToAction("ProductList");
 			}
