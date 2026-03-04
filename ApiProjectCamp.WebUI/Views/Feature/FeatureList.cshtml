@@ -36,8 +36,8 @@
 										<td>@item.Title</td>
 										<td>@item.SubTitle</td>
 										<td>@item.Description</td>
-										<td><a href="/Feature/FeatureCategory/@item.FeatureId" class="btn btn-danger">Delete</a></td>
-										<td><a href="/Feature/FeatureCategory/@item.FeatureId" class="btn btn-success">Update</a></td>
+										<td><a href="/Feature/DeleteFeature/@item.FeatureId" class="btn btn-danger">Delete</a></td>
+										<td><a href="/Feature/UpdateFeature/@item.FeatureId" class="btn btn-success">Update</a></td>
 									</tr>
 								}
 							</tbody>
@@ -46,6 +46,10 @@
 						{
 							<a href="/Feature/CreateFeature/" class="btn btn-info">Create new feature</a>
 
+						}
+						else
+						{
+							<a href="#" class="btn btn-info" onclick="return false">Feature Available</a>
 						}
 					</div>
 				</div>

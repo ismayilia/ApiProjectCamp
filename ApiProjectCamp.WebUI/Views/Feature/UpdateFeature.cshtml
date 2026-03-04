@@ -1,8 +1,42 @@
-﻿
+﻿@model GetFeatureByIdDto
 @{
     ViewData["Title"] = "UpdateFeature";
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h1>UpdateFeature</h1>
+<section class="section">
+	<div class="section-body">
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12">
+				<div class="card">
+					<div class="card-header">
+						<h4>Update Feature Page</h4>
+					</div>
+					<div class="card-body">
+						<form method="post">
+							<input type="hidden" asp-for="FeatureId" />
+							<label asp-for="Title">Title</label>
+							<input type="text" asp-for="Title" class="form-control" />
+							<br>
+							<label asp-for="SubTitle">SubTitle</label>
+							<input type="text" asp-for="SubTitle" class="form-control" />
+							<br>
+							<label asp-for="Description">Description</label>
+							<input type="text" asp-for="Description" class="form-control" />
+							<br>
+							<label asp-for="ImageUrl">Image URL</label>
+							<input type="text" asp-for="ImageUrl" class="form-control" />
+							<br>
+							<label asp-for="VideoUrl">Video URL (Embed Link)</label>
+							<input type="text" asp-for="VideoUrl" class="form-control" />
+							<br>
+							<button class="btn btn-success">Update Feature</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 

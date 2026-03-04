@@ -74,7 +74,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 			var client = _httpClientFactory.CreateClient();
 			var jsonData = JsonConvert.SerializeObject(updateFeatureDto);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-			var responseMessage = await client.PutAsync("https://localhost:7256/api/Features/PutFeature", stringContent);
+			var responseMessage = await client.PutAsync("https://localhost:7256/api/Features/UpdateFeature", stringContent);
 
 			return RedirectToAction("FeatureList");
 
