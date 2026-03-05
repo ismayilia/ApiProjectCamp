@@ -1,0 +1,54 @@
+﻿@model List<ResultAboutDto>
+
+@{
+    ViewData["Title"] = "AboutList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>About Lists</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Delete</th>
+                                    <th scope="col">Update</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Title</td>
+                                        <td>@item.Description</td>
+                                        <td><a href="/About/DeleteAbout/@item.AboutId" class="btn btn-danger">Delete</a></td>
+                                        <td><a href="/About/UpdateAbout/@item.AboutId" class="btn btn-success">Update</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        @if (Model.Count != 1)
+                        {
+                            <a href="/About/CreateAbout/" class="btn btn-info">Create new About</a>
+
+                        }
+                        else
+                        {
+                            <a href="#" class="btn btn-info" onclick="return false">About Available</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
