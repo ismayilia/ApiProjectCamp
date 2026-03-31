@@ -1004,10 +1004,10 @@
         }
       }
     },
-    "/api/Service/ServiceList": {
+    "/api/Services/ServiceList": {
       "get": {
         "tags": [
-          "Service"
+          "Services"
         ],
         "responses": {
           "200": {
@@ -1016,10 +1016,10 @@
         }
       }
     },
-    "/api/Service/CreateService": {
+    "/api/Services/CreateService": {
       "post": {
         "tags": [
-          "Service"
+          "Services"
         ],
         "requestBody": {
           "content": {
@@ -1047,10 +1047,10 @@
         }
       }
     },
-    "/api/Service/DeleteService": {
+    "/api/Services/DeleteService": {
       "delete": {
         "tags": [
-          "Service"
+          "Services"
         ],
         "parameters": [
           {
@@ -1069,10 +1069,10 @@
         }
       }
     },
-    "/api/Service/GetService": {
+    "/api/Services/GetService": {
       "get": {
         "tags": [
-          "Service"
+          "Services"
         ],
         "parameters": [
           {
@@ -1091,10 +1091,10 @@
         }
       }
     },
-    "/api/Service/PutService": {
+    "/api/Services/PutService": {
       "put": {
         "tags": [
-          "Service"
+          "Services"
         ],
         "requestBody": {
           "content": {

@@ -628,9 +628,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServicesController",
     "Method": "CreateService",
-    "RelativePath": "api/Service/CreateService",
+    "RelativePath": "api/Services/CreateService",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -644,9 +644,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServicesController",
     "Method": "DeleteService",
-    "RelativePath": "api/Service/DeleteService",
+    "RelativePath": "api/Services/DeleteService",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -660,9 +660,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServicesController",
     "Method": "GetService",
-    "RelativePath": "api/Service/GetService",
+    "RelativePath": "api/Services/GetService",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -676,9 +676,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServicesController",
     "Method": "PutService",
-    "RelativePath": "api/Service/PutService",
+    "RelativePath": "api/Services/PutService",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -692,9 +692,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServiceController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ServicesController",
     "Method": "ServiceList",
-    "RelativePath": "api/Service/ServiceList",
+    "RelativePath": "api/Services/ServiceList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
