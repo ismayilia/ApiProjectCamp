@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\testimonial\\testimoniallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\testimonial\\testimoniallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\yummyevent\\yummyeventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\yummyevent\\yummyeventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\yummyevent\\updateyummyevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\yummyevent\\updateyummyevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\yummyeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\yummyeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestimonialList.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Testimonial\\TestimonialList.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Testimonial\\TestimonialList.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Testimonial\\TestimonialList.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Testimonial\\TestimonialList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T06:26:05.741Z",
+              "WhenOpened": "2026-04-13T06:29:22.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABVAAAAAAAAAA==",
+              "Title": "UpdateYummyEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\YummyEvent\\UpdateYummyEvent.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\YummyEvent\\UpdateYummyEvent.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\YummyEvent\\UpdateYummyEvent.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\YummyEvent\\UpdateYummyEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T06:24:10.244Z",
+              "WhenOpened": "2026-04-13T06:28:30.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestimonialController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\TestimonialController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\TestimonialController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\TestimonialController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\TestimonialController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "YummyEventList.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\YummyEvent\\YummyEventList.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\YummyEvent\\YummyEventList.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\YummyEvent\\YummyEventList.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\YummyEvent\\YummyEventList.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:23:38.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YummyEventController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\YummyEventController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\YummyEventController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\YummyEventController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\YummyEventController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwD8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T06:01:28.823Z",
+              "WhenOpened": "2026-04-13T06:05:46.832Z",
               "EditorCaption": ""
             }
           ]
