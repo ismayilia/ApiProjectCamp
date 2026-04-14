@@ -241,10 +241,10 @@
         }
       }
     },
-    "/api/Chef/ChefList": {
+    "/api/Chefs/ChefList": {
       "get": {
         "tags": [
-          "Chef"
+          "Chefs"
         ],
         "responses": {
           "200": {
@@ -253,10 +253,10 @@
         }
       }
     },
-    "/api/Chef/CreateChef": {
+    "/api/Chefs/CreateChef": {
       "post": {
         "tags": [
-          "Chef"
+          "Chefs"
         ],
         "requestBody": {
           "content": {
@@ -284,10 +284,10 @@
         }
       }
     },
-    "/api/Chef/DeleteChef": {
+    "/api/Chefs/DeleteChef": {
       "delete": {
         "tags": [
-          "Chef"
+          "Chefs"
         ],
         "parameters": [
           {
@@ -306,10 +306,10 @@
         }
       }
     },
-    "/api/Chef/GetChef/GetChef": {
+    "/api/Chefs/GetChef": {
       "get": {
         "tags": [
-          "Chef"
+          "Chefs"
         ],
         "parameters": [
           {
@@ -328,10 +328,10 @@
         }
       }
     },
-    "/api/Chef/UpdateChef": {
+    "/api/Chefs/UpdateChef": {
       "put": {
         "tags": [
-          "Chef"
+          "Chefs"
         ],
         "requestBody": {
           "content": {

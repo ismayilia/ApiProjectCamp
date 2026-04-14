@@ -148,9 +148,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefsController",
     "Method": "ChefList",
-    "RelativePath": "api/Chef/ChefList",
+    "RelativePath": "api/Chefs/ChefList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -158,9 +158,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefsController",
     "Method": "CreateChef",
-    "RelativePath": "api/Chef/CreateChef",
+    "RelativePath": "api/Chefs/CreateChef",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -174,9 +174,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefsController",
     "Method": "DeleteChef",
-    "RelativePath": "api/Chef/DeleteChef",
+    "RelativePath": "api/Chefs/DeleteChef",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -190,9 +190,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefsController",
     "Method": "GetChef",
-    "RelativePath": "api/Chef/GetChef/GetChef",
+    "RelativePath": "api/Chefs/GetChef",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -206,9 +206,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefController",
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ChefsController",
     "Method": "UpdateChef",
-    "RelativePath": "api/Chef/UpdateChef",
+    "RelativePath": "api/Chefs/UpdateChef",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
