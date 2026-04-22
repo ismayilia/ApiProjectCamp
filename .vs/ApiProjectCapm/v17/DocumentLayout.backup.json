@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\reservation\\reservationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\reservation\\reservationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\chefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\chefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\reservation\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\reservation\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\yummyeventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\yummyeventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\chef\\updatechef.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\chef\\updatechef.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\chef\\cheflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\chef\\cheflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\chef\\createchef.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\chef\\createchef.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\reservation\\createreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\reservation\\createreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,80 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YummyEventsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\YummyEventsController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\YummyEventsController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\YummyEventsController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\YummyEventsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T06:08:04.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChefsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ChefsController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\ChefsController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ChefsController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\ChefsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wCoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T05:57:05.383Z",
+              "DocumentIndex": 1,
+              "Title": "UpdateReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\UpdateReservation.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Reservation\\UpdateReservation.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\UpdateReservation.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Reservation\\UpdateReservation.cshtml",
+              "ViewState": "AgIAAA8AAADAmZmZmZkVwCcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T05:50:26.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UpdateChef.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\UpdateChef.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Chef\\UpdateChef.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\UpdateChef.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Chef\\UpdateChef.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "CreateReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\CreateReservation.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Reservation\\CreateReservation.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\CreateReservation.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Reservation\\CreateReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T05:33:08.712Z",
+              "WhenOpened": "2026-04-22T05:49:50.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateChef.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\CreateChef.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Chef\\CreateChef.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\CreateChef.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Chef\\CreateChef.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReservationList.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\ReservationList.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Reservation\\ReservationList.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Reservation\\ReservationList.cshtml*",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Reservation\\ReservationList.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T05:32:38.911Z",
+              "WhenOpened": "2026-04-22T05:49:04.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChefList.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\ChefList.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Chef\\ChefList.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Chef\\ChefList.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Chef\\ChefList.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T05:31:58.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChefController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\ChefController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\ChefController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\ChefController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\ChefController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAIwEMAAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEAAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T05:07:05.09Z",
+              "WhenOpened": "2026-04-22T05:40:04.5Z",
               "EditorCaption": ""
             }
           ]

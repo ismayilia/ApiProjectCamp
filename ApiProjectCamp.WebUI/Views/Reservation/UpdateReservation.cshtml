@@ -1,0 +1,50 @@
+﻿@model GetReservationByIdDto
+@{
+    ViewData["Title"] = "UpdateReservation";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="section">
+	<div class="section-body">
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12">
+				<div class="card">
+					<div class="card-header">
+						<h4>Edit Reservation Page</h4>
+					</div>
+					<div class="card-body">
+						<form method="post">
+							<input type="hidden" asp-for="ReservationId">
+							<label asp-for="NameSurname">Customer Name and Surname</label>
+							<input type="text" asp-for="NameSurname" class="form-control" />
+							<br>
+							<label asp-for="Email">Customer Email Addess</label>
+							<input type="text" asp-for="Email" class="form-control" />
+							<br>
+							<label asp-for="PhoneNumber">Customer Phone Number</label>
+							<input type="tel" asp-for="PhoneNumber" class="form-control" />
+							<br>
+							<label asp-for="ReservationDate">Reservation Date</label>
+							<input type="date" asp-for="ReservationDate" class="form-control" />
+							<br>
+							<label asp-for="ReservationTime">Reservation time</label>
+							<input type="time" asp-for="ReservationTime" class="form-control" />
+							<br>
+							<label asp-for="CountOfPeople">Count of People</label>
+							<input type="number" asp-for="CountOfPeople" class="form-control" />
+							<br>
+							<label asp-for="Message">Customer Message</label>
+							<input type="text" asp-for="Message" class="form-control" />
+							<br>
+							<label asp-for="ReservationStatus">Reservation Satus</label>
+							<input type="text" asp-for="ReservationStatus" readonly class="form-control" />
+							<br>
+							<button class="btn btn-primary">Edit Reservation</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

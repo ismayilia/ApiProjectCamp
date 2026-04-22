@@ -1,0 +1,81 @@
+﻿@model List<ResultReservationDto>
+@{
+    ViewData["Title"] = "ReservationList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Reservations Lists</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- RESPONSIVE FIX -->
+                        <div style="overflow-x:auto;">
+
+                            <table class="table" style="min-width:900px; white-space:nowrap;">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Customer Name</th>
+                                        <th>Reservation Date</th>
+                                        <th>Reservation Time</th>
+                                        <th>Count Of People</th>
+                                        <th>Reservation Status</th>
+                                        <th>Delete</th>
+                                        <th>Update</th>
+                                        <th>Accept</th>
+                                        <th>Reject</th>
+                                        <th>Wait</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <th>@count</th>
+                                            <td>@item.NameSurname</td>
+                                            <td>@item.ReservationDate</td>
+                                            <td>@item.ReservationTime</td>
+                                            <td>@item.CountOfPeople</td>
+                                            <td>@item.ReservationStatus</td>
+
+
+                                            <td>
+                                                <a href="/Reservation/DeleteReservation/@item.ReservationId" class="btn btn-danger btn-sm">Delete</a>
+                                            </td>
+                                            <td>
+                                                <a href="/Reservation/UpdateReservation/@item.ReservationId" class="btn btn-success btn-sm">Update</a>
+                                            </td>
+                                            <td>
+                                                <a href="/Reservation/AcceptReservation/@item.ReservationId" class="btn btn-info btn-sm">Accept</a>
+                                            </td>
+                                            <td>
+                                                <a href="/Reservation/RejectReservation/@item.ReservationId" class="btn btn-dark btn-sm">Reject</a>
+                                            </td>
+                                            <td>
+                                                <a href="/Reservation/WaitReservation/@item.ReservationId" class="btn btn-warning btn-sm">Wait</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <br />
+
+                        <a href="/Reservation/CreateReservation/" class="btn btn-info">Create new reservation</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
