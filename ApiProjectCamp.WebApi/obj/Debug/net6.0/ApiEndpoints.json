@@ -370,6 +370,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ImagesController",
+    "Method": "CreateImage",
+    "RelativePath": "api/Images/CreateImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createImageDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.ImageDtos.CreateImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ImagesController",
+    "Method": "DeleteImage",
+    "RelativePath": "api/Images/DeleteImage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ImagesController",
+    "Method": "GetImage",
+    "RelativePath": "api/Images/GetImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ImagesController",
+    "Method": "ImageList",
+    "RelativePath": "api/Images/ImageList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ImagesController",
+    "Method": "UpdateImage",
+    "RelativePath": "api/Images/UpdateImage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateImageDto",
+        "Type": "ApiProjectCamp.WebApi.Dtos.ImageDtos.UpdateImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiProjectCamp.WebApi.Controllers.MessagesController",
     "Method": "CreateMessage",
     "RelativePath": "api/Messages/CreateMessage",
