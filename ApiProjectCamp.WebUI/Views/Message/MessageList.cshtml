@@ -1,0 +1,55 @@
+﻿@model List<ResultMessageDto>
+@{
+    ViewData["Title"] = "MessageList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+
+}
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Message Lists</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name Surname</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Open Message</th>
+                                    <th scope="col">Delete</th>
+                                    <th scope="col">Update</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+                                    <tr>
+                                        <th scope="row">@count</th>
+                                        <td>@item.NameSurname</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Subject</td>
+                                        <td>@item.SendDate.ToString("dd-MMM-yyyy")</td>
+                                        <td><a href="/Message/DeleteMessage/@item.MessageId" class="btn btn-warning">Open Message</a></td>
+                                        <td><a href="/Message/DeleteMessage/@item.MessageId" class="btn btn-danger">Delete</a></td>
+                                        <td><a href="/Message/UpdateMessage/@item.MessageId" class="btn btn-success">Update</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <a href="/Message/CreateMessage/" class="btn btn-info">Create new message  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
