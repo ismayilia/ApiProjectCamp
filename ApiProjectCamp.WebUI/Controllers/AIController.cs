@@ -26,7 +26,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 					new
 					{
 						role="system",
-						content="Sen bir restoran için yemek önerilerini yapan bir yapay zeka aracısın. Amacımız kullanıcı tarafından girilen malzemelere göre yemek tarifi önerisinde bulunmak."
+						content="You are an AI tool that makes food suggestions for a restaurant. Our goal is to suggest recipes based on ingredients entered by the user."
 					},
 					new
 					{
@@ -47,7 +47,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 			}
 			else
 			{
-				ViewBag.recipe = "Bir hata oluştu: " + response.StatusCode;
+				ViewBag.recipe = "An error occurred: " + response.StatusCode;
 			}
 
 			return View();
