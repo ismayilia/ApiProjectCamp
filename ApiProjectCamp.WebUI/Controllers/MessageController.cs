@@ -1,7 +1,9 @@
 ﻿using ApiProjectCamp.WebUI.Dtos.MessageDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Net.Http.Headers;
 using System.Text;
+using static ApiProjectCamp.WebUI.Controllers.AIController;
 
 namespace ApiProjectCamp.WebUI.Controllers
 {
@@ -78,6 +80,55 @@ namespace ApiProjectCamp.WebUI.Controllers
 
 			return RedirectToAction("MessageList");
 
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> AnswerMessageWithOpenAi(int id, string prompt)
+		{
+			var client = _httpClientFactory.CreateClient();
+			var responseMessage = await client.GetAsync("https://localhost:7256/api/Messages/GetMessage?id=" + id);
+			var jsonData = await responseMessage.Content.ReadAsStringAsync();
+			var value = JsonConvert.DeserializeObject<GetMessageByIdDto>(jsonData);
+			prompt = value.MessageDetails;
+
+			var apiKey = "";
+
+			using var client2 = new HttpClient();
+			client2.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
+
+			var requestData = new
+			{
+				model = "gpt-3.5-turbo",
+				messages = new[]
+				{
+					new
+					{
+						role="system",
+						content="You are a customer service AI assistant for a restaurant. You respond to customer messages in a detailed, polite, professional, and customer-oriented manner. Always prioritize customer satisfaction, empathy, and clear communication. Generate positive, helpful, and logical responses while maintaining a warm and welcoming tone."
+					},
+					new
+					{
+						role="user",
+						content= prompt
+					}
+				},
+				temperature = 0.5
+			};
+
+			var response = await client2.PostAsJsonAsync("https://api.openai.com/v1/chat/completions", requestData);
+
+			if (response.IsSuccessStatusCode)
+			{
+				var result = await response.Content.ReadFromJsonAsync<OpenAIResponse>();
+				var content = result.choices[0].message.content;
+				ViewBag.answerAI = content;
+			}
+			else
+			{
+				ViewBag.answerAI = "An error occurred: " + response.StatusCode;
+			}
+
+			return View(value);
 		}
 	}
 }
