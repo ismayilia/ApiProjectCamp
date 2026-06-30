@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Text.Json;
 using static ApiProjectCamp.WebUI.Controllers.AIController;
 
 namespace ApiProjectCamp.WebUI.Controllers
@@ -139,10 +140,39 @@ namespace ApiProjectCamp.WebUI.Controllers
 		[HttpPost]
 		public async Task<IActionResult> SendMessage(CreateMessageDto createMessageDto)
 		{
-			var client = _httpClientFactory.CreateClient();
+			var client = new HttpClient();
+			var apiKey = "";
+			client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
+			try
+			{
+				var translateRequestBody = new
+				{
+					input = createMessageDto.MessageDetails
+				};
+				var translateJson = System.Text.Json.JsonSerializer.Serialize(translateRequestBody);
+				var translateContent = new StringContent(translateJson, Encoding.UTF8, "application/json");
+				var translateResponse = await client.PostAsync("https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-tr-en", translateContent);
+				var translateResponseString = await translateResponse.Content.ReadAsStringAsync();
+
+				string englishText = createMessageDto.MessageDetails;
+				if (translateResponseString.TrimStart().StartsWith("["))
+				{
+					var translateDoc = JsonDocument.Parse(translateResponseString);
+					englishText = translateDoc.RootElement[0].GetProperty("translation_text").GetString();
+					ViewBag.v = englishText;
+				}
+			}
+			catch
+			{
+
+				throw;
+			}
+
+
+			var client2 = _httpClientFactory.CreateClient();
 			var jsonData = JsonConvert.SerializeObject(createMessageDto);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-			var responseMessage = await client.PostAsync("https://localhost:7256/api/Messages/CreateMessage", stringContent);
+			var responseMessage = await client2.PostAsync("https://localhost:7256/api/Messages/CreateMessage", stringContent);
 			if (responseMessage.IsSuccessStatusCode)
 			{
 				return RedirectToAction("MessageList");
