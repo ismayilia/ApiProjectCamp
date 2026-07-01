@@ -159,13 +159,46 @@ namespace ApiProjectCamp.WebUI.Controllers
 				{
 					var translateDoc = JsonDocument.Parse(translateResponseString);
 					englishText = translateDoc.RootElement[0].GetProperty("translation_text").GetString();
-					ViewBag.v = englishText;
+					//ViewBag.v = englishText;
+				}
+
+				var toxicRequestBody = new
+				{
+					inputs = englishText
+				};
+
+				var toxisJson = System.Text.Json.JsonSerializer.Serialize(toxicRequestBody);
+				var toxicContent = new StringContent(toxisJson, Encoding.UTF8, "application/json");
+				var toxicResponse = await client.PostAsync("https://api-inference.huggingface.co/models/unitary/toxic-bert", toxicContent);
+				var toxicResponseString = await toxicResponse.Content.ReadAsStringAsync();
+
+				if (toxicResponseString.TrimStart().StartsWith("["))
+				{
+					var toxicDoc = JsonDocument.Parse(toxicResponseString);
+					foreach (var item in toxicDoc.RootElement[0].EnumerateArray())
+					{
+						string label = item.GetProperty("label").GetString();
+						// 0.01-0.99 arasi deyishir toxic-lik derecesi
+						double score = item.GetProperty("score").GetDouble();
+
+						if (score > 0.5)
+						{
+							createMessageDto.Status = "Toxic Message";
+							break;
+						}
+
+					}
+				}
+
+				if (string.IsNullOrEmpty(createMessageDto.Status))
+				{
+					createMessageDto.Status = "Message received";
 				}
 			}
-			catch
+			catch(Exception ex)
 			{
 
-				throw;
+				createMessageDto.Status = "Pending Approval";
 			}
 
 
