@@ -195,7 +195,7 @@ namespace ApiProjectCamp.WebUI.Controllers
 					createMessageDto.Status = "Message received";
 				}
 			}
-			catch(Exception ex)
+			catch
 			{
 
 				createMessageDto.Status = "Pending Approval";

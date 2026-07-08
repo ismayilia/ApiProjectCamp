@@ -1775,6 +1775,10 @@
           },
           "isRead": {
             "type": "boolean"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -2102,6 +2106,10 @@
           },
           "isRead": {
             "type": "boolean"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

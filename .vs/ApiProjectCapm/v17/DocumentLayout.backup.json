@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\dtos\\messagedtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\dtos\\messagedtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,28 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260701102950_mig9.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\Migrations\\20260701102950_mig9.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T10:29:50.711Z",
+              "WhenOpened": "2026-07-08T05:26:03.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Entities\\Message.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Entities\\Message.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Entities\\Message.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebApi\\Entities\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CreateMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\MessageDtos\\CreateMessageDto.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Dtos\\MessageDtos\\CreateMessageDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Dtos\\MessageDtos\\CreateMessageDto.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Dtos\\MessageDtos\\CreateMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T10:26:29.126Z",
+              "WhenOpened": "2026-07-01T10:57:43.039Z",
               "EditorCaption": ""
             },
             {
@@ -106,7 +106,7 @@
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\MessageController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\MessageController.cs",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAANDMzMzMLwMUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-25T07:59:36.017Z",
               "EditorCaption": ""

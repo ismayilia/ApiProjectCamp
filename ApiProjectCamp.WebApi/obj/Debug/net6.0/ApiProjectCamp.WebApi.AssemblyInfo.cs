@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiProjectCamp.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d63420be41840761fea5661695671cc7c87d7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38cb198d355531886c2dbb3e1cb0931aec822e28")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiProjectCamp.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiProjectCamp.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
