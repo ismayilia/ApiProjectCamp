@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FeatureController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "ViewState": "AgIAADoAAAAAzMzMzMwMwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T05:40:30.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
-              "ViewState": "AgIAACkAAADAmZmZmZkjwDcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-08T05:37:21.935Z",
               "EditorCaption": ""

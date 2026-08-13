@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\ai\\createrecipewithopenai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\ai\\createrecipewithopenai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,25 +55,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FeatureController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
+              "Title": "icon-material.html",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\wwwroot\\otika-bootstrap-admin-template\\icon-material.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T05:40:30.531Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-13T08:36:37.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T08:33:52.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateRecipeWithOpenAI.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\AI\\CreateRecipeWithOpenAI.cshtml",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\AI\\CreateRecipeWithOpenAI.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\AI\\CreateRecipeWithOpenAI.cshtml",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\AI\\CreateRecipeWithOpenAI.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T08:31:56.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\AIController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\AIController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\AIController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\AIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T08:29:42.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FeatureController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\FeatureController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T08:02:04.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\Models\\ChatHub.cs",
-              "ViewState": "AgIAACIAAACAMzMzMzMXwDkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-08T05:37:21.935Z",
               "EditorCaption": ""
