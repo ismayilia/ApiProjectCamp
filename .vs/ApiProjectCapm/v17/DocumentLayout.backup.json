@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_sidebaradminlayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_dashboardwidgetscomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_dashboardwidgetscomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardwidgetscomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardwidgetscomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DashboardWidgetsComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardWidgetsComponentPartial.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardWidgetsComponentPartial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardWidgetsComponentPartial.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardWidgetsComponentPartial.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T07:03:35.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T07:03:18.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T06:28:05.079Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -46,54 +89,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_SidebarAdminLayoutComponentPartial\\Default.cshtml*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-17T08:42:52.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml*",
+              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardWidgetsComponentPartial\\Default.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-17T08:27:15.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-17T07:36:41.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T07:35:42.639Z",
               "EditorCaption": ""
             }
           ]

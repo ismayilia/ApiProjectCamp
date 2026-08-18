@@ -1240,6 +1240,54 @@
         }
       }
     },
+    "/api/Reservations/GetPendingReservations": {
+      "get": {
+        "tags": [
+          "Reservations"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reservations/GetApprovedReservations": {
+      "get": {
+        "tags": [
+          "Reservations"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reservations/GetTotalCustomerCount": {
+      "get": {
+        "tags": [
+          "Reservations"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reservations/GetTotalReservationCount": {
+      "get": {
+        "tags": [
+          "Reservations"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Services/ServiceList": {
       "get": {
         "tags": [

@@ -735,6 +735,26 @@
   },
   {
     "ContainingType": "ApiProjectCamp.WebApi.Controllers.ReservationsController",
+    "Method": "GetApprovedReservations",
+    "RelativePath": "api/Reservations/GetApprovedReservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ReservationsController",
+    "Method": "GetPendingReservations",
+    "RelativePath": "api/Reservations/GetPendingReservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ReservationsController",
     "Method": "GetReservation",
     "RelativePath": "api/Reservations/GetReservation",
     "HttpMethod": "GET",
@@ -747,6 +767,26 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ReservationsController",
+    "Method": "GetTotalCustomerCount",
+    "RelativePath": "api/Reservations/GetTotalCustomerCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectCamp.WebApi.Controllers.ReservationsController",
+    "Method": "GetTotalReservationCount",
+    "RelativePath": "api/Reservations/GetTotalReservationCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
