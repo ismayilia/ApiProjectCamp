@@ -88,5 +88,38 @@ namespace ApiProjectCamp.WebApi.Controllers
 			return Ok(value);
 		}
 
+		[HttpGet]
+		public IActionResult GetReservationStats()
+		{
+			DateTime today = new DateTime(2025, 11, 19);
+			DateTime fourMonthsAgo = today.AddMonths(-3); ;
+
+			// 1. SQL tarafında sadece gruplama ve veri çekme
+			var rawData = _context.Reservations
+				.Where(r => r.ReservationDate >= fourMonthsAgo)
+				.GroupBy(r => new { r.ReservationDate.Year, r.ReservationDate.Month })
+				.Select(g => new
+				{
+					g.Key.Year,
+					g.Key.Month,
+					Approved = g.Count(x => x.ReservationStatus == "Onaylandi"),
+					Pending = g.Count(x => x.ReservationStatus == "Onay Bekliyor"),
+					Canceled = g.Count(x => x.ReservationStatus == "Iptal Edildi")
+				})
+				.OrderBy(x => x.Year).ThenBy(x => x.Month)
+				.ToList(); // Burada SQL biter, veriler RAM’e alınır
+
+			// 2. Bellekte DTO'ya mapleme + tarih formatlama
+			var result = rawData.Select(x => new ReservationChartDto
+			{
+				Month = new DateTime(x.Year, x.Month, 1).ToString("MMM yyyy"),
+				Approved = x.Approved,
+				Pending = x.Pending,
+				Canceled = x.Canceled
+			}).ToList();
+
+			return Ok(result);
+		}
+
 	}
 }

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardmainchartcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardmainchartcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C688F-9F3C-4683-8B6C-2E28A6800772}|ApiProjectCamp.WebApi\\ApiProjectCamp.WebApi.csproj|solutionrelative:apiprojectcamp.webapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\shared\\components\\_dashboardmainchartcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\shared\\components\\_dashboardmainchartcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\models\\revenuechartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\models\\revenuechartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\requirements\\dashboardchart.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\requirements\\dashboardchart.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|c:\\users\\hp\\desktop\\apiprojectcapml\\apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardmainchartcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D9E658-BD35-4832-92E3-9DDFF5854DDC}|ApiProjectCamp.WebUI\\ApiProjectCamp.WebUI.csproj|solutionrelative:apiprojectcamp.webui\\viewcomponents\\dashboardviewcomponents\\_dashboardmainchartcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RevenueChartViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\RevenueChartViewModel.cs",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Models\\RevenueChartViewModel.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Models\\RevenueChartViewModel.cs",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Models\\RevenueChartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T07:47:35.945Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -63,15 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardChart.txt",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Requirements\\DashboardChart.txt",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Requirements\\DashboardChart.txt",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Requirements\\DashboardChart.txt",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Requirements\\DashboardChart.txt",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAAMcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-08-19T07:22:26.055Z",
+              "DocumentIndex": 0,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "ApiProjectCamp.WebApi\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv2YAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:20:07.639Z",
               "EditorCaption": ""
             },
             {
@@ -82,35 +61,22 @@
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardMainChartComponentPartial\\Default.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardMainChartComponentPartial\\Default.cshtml",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Shared\\Components\\_DashboardMainChartComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwJoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-19T07:10:42.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_DashboardMainChartComponentPartial.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardMainChartComponentPartial.cs",
               "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardMainChartComponentPartial.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardMainChartComponentPartial.cs",
               "RelativeToolTip": "ApiProjectCamp.WebUI\\ViewComponents\\DashboardViewComponents\\_DashboardMainChartComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-19T07:07:18.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\ApiProjectCapml\\ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "ApiProjectCamp.WebUI\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-17T07:36:41.328Z",
               "EditorCaption": ""
             }
           ]

@@ -1288,6 +1288,18 @@
         }
       }
     },
+    "/api/Reservations/GetReservationStats": {
+      "get": {
+        "tags": [
+          "Reservations"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Services/ServiceList": {
       "get": {
         "tags": [
